@@ -1,0 +1,44 @@
+button {
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(110, 108, 108);
+  font-size: 3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+#keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  background-color: black;
+  padding: 20px;
+}
+#display {
+  width: 100%;
+  padding: 20px;
+  background-color: rgb(40, 25, 25);
+  color: white;
+  font-size: 3rem;
+}
+#calculator {
+  max-width: 500px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.bbtn {
+  background-color: orange;
+}
+.bbtns {
+  background-color: rgb(73, 48, 2);
+}
+.bbtn:hover {
+  background-color: rgb(188, 153, 89);
+}
+.bbtns:hover {
+  background-color: rgb(138, 100, 29);
+}
+button:hover {
+  background-color: rgb(202, 199, 199);
+}
